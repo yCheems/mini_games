@@ -18,7 +18,6 @@ function startGame(){
         cards[rIndex] = tempVal;
     }
     for (let i = 0; i < cards.length; i++){
-        deck.innerHTML = "";
         [].forEach.call(cards, function(item) {
             deck.appendChild(item);
         });
